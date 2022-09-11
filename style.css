@@ -1,0 +1,115 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+header{
+    width: 100vw;
+    background-color: #000;
+} 
+.poster-img{
+    width: 100vw;
+}
+.navicon {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+main{
+    width: 100vw;
+    height: auto;
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+}
+.main-small{
+    margin: 50px 400px 0px 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.image-small {
+    margin-top: 50px;
+    height: 311px;
+    width: 312px;
+}
+.char-small { 
+    width: 312px;
+    height: auto;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.main-medium{
+    display: flex;
+    margin: 50px 450px 20px 450px;
+    justify-content: space-between;
+}
+
+.image-medium {
+    height: 60%;
+    width: 100%;
+    
+}
+.char-medium {
+    height: 700px;
+    width: 480px;
+    background-color: #fff;
+    color: #000;
+    margin: 50px 0px 120px 0px;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.btn-small { 
+    display: flex;
+    align-self: flex-start;
+    background-color: #E83F57;
+    border: none;
+    border-radius: 3px;
+    margin: auto 0 auto 8px ;
+    padding: 7px 15px ;
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700; 
+}
+
+.btn-medium { 
+    display: flex;
+    align-self: flex-start;
+    margin: 70px auto auto 20px ;
+    background-color: #E83F57;
+    border: none;
+    border-radius: 3px;
+    padding: 15px 25px ;
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700; 
+}
+
+h2{
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 40.8px;
+    margin: 10px 8px;
+}
+
+p{
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22.4px; 
+    margin: 10px 8px;
+}
